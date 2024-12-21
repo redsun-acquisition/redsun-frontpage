@@ -1,3 +1,3 @@
 # RedSun documentation
 
-Landing page for all RedSun documentation pages.
+RedSun documentation homepage.
