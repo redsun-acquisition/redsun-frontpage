@@ -4,36 +4,31 @@ This document presents a (not-so) curated list of open-source projects related t
 
 Other projects are listed in the [Smart Microscopy] website.
 
-We're separating projects into two categories:
-
-- "Applications": projects that provide the full functionality of a software application, comprehensive of an user interface and a set of hardware interfaces.
-- "Libraries": projects that provide a set of tools for controlling hardware devices, either via scripting or via a customly developed user interface.
-
 This list should include only projects that have been actively developed in the last 5 years.
 
 We'll update this list as we go.
 
 Any contribution is welcome.
 
-## Applications
-
-- [microscope-cockpit]: an user interface for the [microscope] library.
-- [PyMoDAQ]: a Python package for controlling hardware devices via a custom user interface.
-   - PyMoDAQ leverages the concept of plugins (called "modules" in PyMoDAQ), but it is tied to the Qt framework.
-
-## Libraries
-
-- [bluesky]: event-driven, unopinionated framework for experiment control in Python.
+- [PyMoDAQ] [^1]: a Python package for controlling hardware devices via a custom user interface.
+   - PyMoDAQ leverages a similar approach to RedSun concept of plugins (called "modules" in PyMoDAQ), but it is tied to the Qt framework.
+- [bluesky] [^2]: event-driven, unopinionated framework for experiment control in Python.
     - *We use this!*
-- [microscope]: a Python library for control of local and remote microscope devices.
-- [qudi-core]: a framework for modular multi-instrument and multi-computer measurement applications.
+- [qudi-core] [^3]: a framework for modular multi-instrument and multi-computer measurement applications.
     - qudi-core leverages a similar approach to RedSun concept of plugins (called "addons" in qudi), but it is tied to the Qt framework.
 
+[^1]: Weber, Sébastien. (2021). PyMoDAQ: An open-source Python-based software for modular data acquisition. *Review of Scientific Instruments*. 92. 045104. [doi:10.1063/5.0032116](https://doi.org/10.1063/5.0032116)
+[^2]: Daniel Allan, Thomas Caswell, Stuart Campbell & Maksim Rakitin (2019) Bluesky's Ahead: A Multi-Facility Collaboration for an a la Carte Software Project for Data Acquisition and Management, *Synchrotron Radiation News*, 32:3, 19-22, DOI: [doi:10.1080/08940886.2019.1608121](https://doi.org/10.1080/08940886.2019.1608121)
+[^3]: Jan M. Binder, Alexander Stark, Nikolas Tomek, Jochen Scheuer, Florian Frank, Kay D. Jahnke, Christoph Müller, Simon Schmitt, Mathias H. Metsch, Thomas Unden, Tobias Gehring, Alexander Huck, Ulrik L. Andersen, Lachlan J. Rogers, Fedor Jelezko, Qudi: A modular python suite for experiment control and data processing, *SoftwareX*, Volume 6, 2017, Pages 85-90, ISSN 2352-7110, [doi:10.1016/j.softx.2017.02.001](https://doi.org/10.1016/j.softx.2017.02.001)
 
-[microscope]: https://github.com/micro-manager/microscope
+Volume 6,
+2017,
+Pages 85-90,
+ISSN 2352-7110,
+https://doi.org/10.1016/j.softx.2017.02.001.
+(https://www.sciencedirect.com/science/article/pii/S2352711017300055)
+
 [qudi-core]: https://github.com/Ulm-IQO/qudi-core
-[PYME]: https://www.python-microscopy.org/
 [PyMoDAQ]: https://github.com/pymodaq/pymodaq
-[microscope-cockpit]: https://github.com/microscope-cockpit/cockpit
 [bluesky]: https://blueskyproject.io/
 [Smart Microscopy]: https://smartmicroscopy.org/resources/

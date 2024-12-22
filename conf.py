@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     "sphinx.ext.githubpages",
+    "sphinxcontrib.bibtex",
     'myst_parser',
 ]
 
@@ -25,6 +26,7 @@ exclude_patterns = ['_build', "README.md"]
 
 source_suffix = 'md'
 
+bibtex_bibfiles = ["statement.bib"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

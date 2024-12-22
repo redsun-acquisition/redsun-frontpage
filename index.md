@@ -8,12 +8,10 @@ This project is developed in the context of microscopy and microscopy-related ha
 This project is under active development and may (and probably will) see breaking changes. Use at your own risk.
 ```
 
-## Table of contents
-
 ```{toctree}
 :maxdepth: 1
 :caption: "Contents:"
 
-statement
+statement/index
 project-list
 ```
