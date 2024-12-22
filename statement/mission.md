@@ -20,7 +20,7 @@ RedSun architecture is inspired by the Model-View-Controller (MVC) pattern, but 
     - they can simply render information to the user interface;
     - they can ship plans that are not tied to any specific hardware component, but to protocols;
     - they can rely on information provided by other controllers or publish information themselves;
-- The "Virtual" layer is a layer that sits between the "Model" and the "Controller" layers, and is responsible for handling the communication with the back-end;
+- The "Virtual" layer is a layer that sits between the user interface and the backend layers, and is responsible for handling the communication between the two;
 
 This is because in the standard MVC pattern, there's a strong correlation between the Controller and View layers, making it difficult to tie a different front-end to the same back-end.
 
