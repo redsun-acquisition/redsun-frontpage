@@ -10,7 +10,7 @@ We'll update this list as we go.
 
 Any contribution is welcome.
 
-- [PyMoDAQ] [^1]: a Python package for controlling hardware devices via a custom user interface.
+- [PyMoDAQ] [^1]: a modular data acquisition framework.
    - PyMoDAQ leverages a similar approach to RedSun concept of plugins (called "modules" in PyMoDAQ), but it is tied to the Qt framework.
 - [bluesky] [^2]: event-driven, unopinionated framework for experiment control in Python.
     - *We use this!*
