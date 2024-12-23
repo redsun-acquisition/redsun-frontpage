@@ -4,9 +4,9 @@
 
 For open-source projects, when it comes down to hardware control for microscopes, one of the most popular choices is [Micro-Manager] [^1].
 
-Micro-Manager is a plugin for [ImageJ] [^2] that allows to control one or multiple hardware devices to control a custom-built microscope, and a great amount of plugins to extend its functionalities.
+Micro-Manager is a plugin for [ImageJ] [^2] that allows to control one or multiple hardware devices to control a custom-built microscope, and offers a great amount of plugins to extend its functionalities to combine data acquisition with real-time processing.
 
-In time, Micro-Manager has accumulated more than 200 device interfaces (called "device adapters") that allow to control a wide range of hardware devices.
+In time, Micro-Manager has accumulated more than 200 device interfaces (called "device adapters") that allow to control a wide range of hardware devices. You can view the full selection of available devices in the  [mmCoreAndDevices] repository.
 
 One of the downsides is that Micro-Manager is written in Java, and in the latest years Python has become the preferred language for scientists to work with,
 especially in the field of Artificial Intelligence.
@@ -59,6 +59,7 @@ Furthermore, concerning programming languages, the white paper reports the follo
 [^3]: Software for Microscopy workshop (2020), White paper. [arXiv:2005.00082](https://doi.org/10.48550/arXiv.2005.00082)
 
 [Micro-Manager]: https://micro-manager.org/
+[mmcoreanddevices]: https://github.com/micro-manager/mmCoreAndDevices
 [ImageJ]: https://imagej.net/ij/
 [Smart Microscopy]: https://smartmicroscopy.org/resources/
 [section]: #../project-list

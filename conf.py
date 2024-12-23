@@ -20,7 +20,6 @@ extensions = [
     'myst_parser',
 ]
 
-templates_path = ['_templates']
 exclude_patterns = ['_build', "README.md"]
 
 source_suffix = 'md'
@@ -29,7 +28,6 @@ source_suffix = 'md'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
-html_static_path = ['_static']
 
 source_suffix = {
     '.rst': 'restructuredtext',

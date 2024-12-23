@@ -18,6 +18,7 @@ This project is under active development and may (and probably will) see breakin
 
 statement/index
 project-list
+governance/index
 ```
 
 [Sunflare]: https://redsun-acquisition.github.io/sunflare/
