@@ -22,15 +22,21 @@ jobs:
           python-version: "3.10"
       - name: Install dependencies
         run: |
+          pip install -U pip
           pip install -r requirements.txt
       - name: build docs
         run: |
           make dirhtml
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs
+          path: _build/dirhtml
       - name: deploy on gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_build/dirhtml
+          publish_dir: _build/dirhtml
           destination_dir: docs/frontpage
           force_orphan: true
