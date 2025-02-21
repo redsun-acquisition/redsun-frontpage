@@ -5,7 +5,7 @@ An even more complex topic is orchestrating the acquisition of custom-built hard
 The desire to have a flexible framework for building custom applications for microscopy is strong in the community, but there is yet no way to find a reacheable consensus
 among interested parties to develop such framework.
 
-The following sections illustrate the decision-making process that led to the conception of RedSun.
+The following sections illustrate the decision-making process that led to the conception of Redsun.
 
 ```{toctree}
 :maxdepth: 1

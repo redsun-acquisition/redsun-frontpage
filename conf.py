@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'RedSun'
+project = 'Redsun'
 copyright = '2024, Jacopo Abramo'
 author = 'Jacopo Abramo'
 

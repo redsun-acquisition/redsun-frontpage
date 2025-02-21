@@ -1,6 +1,6 @@
 # Governance model
 
-Accross all the repositories under the RedSun organization, the project follows the Benevolent Dictator For Life (BDFL) governance model.
+Accross all the repositories under the Redsun organization, the project follows the Benevolent Dictator For Life (BDFL) governance model.
 
 The model described below is adapted from this [template](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel).
 
@@ -13,7 +13,7 @@ Before panicking at the idea of contributing to a project which lists the word "
 ```{caution}
 The governance model is still under draft; roles and responsabilities may change as the project evolves.
 
-The core idea is to keep the RedSun project free and open source for all that wish to use it or contribute to it, regardless of the model.
+The core idea is to keep the Redsun project free and open source for all that wish to use it or contribute to it, regardless of the model.
 ```
 
 ## Overview

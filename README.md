@@ -1,3 +1,3 @@
-# RedSun documentation
+# Redsun documentation
 
-RedSun documentation homepage.
+Redsun documentation homepage.
