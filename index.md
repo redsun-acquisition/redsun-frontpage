@@ -5,7 +5,7 @@ Redsun - event-driven, unopinionated, Python-native framework for building custo
 This project is developed in the context of microscopy and microscopy-related hardware, but aims to be flexible to be used in other scientific domains.
 
 - [Redsun] application
-- [SunFlare], toolkit for Redsun
+- [Sunflare], toolkit for Redsun
 - Redsun plugin template (docs WiP)
 
 ```{warning}
@@ -21,5 +21,5 @@ project-list
 governance/index
 ```
 
-[Redsun]: https://Redsun-acquisition.github.io/Redsun/
-[Sunflare]: https://Redsun-acquisition.github.io/sunflare/
+[redsun]: https://redsun-acquisition.github.io/redsun/
+[sunflare]: https://redsun-acquisition.github.io/sunflare/
