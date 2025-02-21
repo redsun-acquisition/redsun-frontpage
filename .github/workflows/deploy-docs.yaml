@@ -38,6 +38,6 @@ jobs:
           publish_branch: gh-pages
           external_repository: redsun-acquisition/redsun-acquisition.github.io
           personal_token: ${{ secrets.REDSUN_DOCS_PUBLISH_TOKEN }}
-          publish_dir: docs/_build/dirhtml
+          publish_dir: _build/dirhtml
           destination_dir: .
           keep_files: true
