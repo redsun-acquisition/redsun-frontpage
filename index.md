@@ -21,5 +21,5 @@ project-list
 governance/index
 ```
 
-[redsun]: https://redsun-acquisition.github.io/redsun/
-[sunflare]: https://redsun-acquisition.github.io/sunflare/
+[redsun]: https://redsun-acquisition.github.io/redsun/main/
+[sunflare]: https://redsun-acquisition.github.io/sunflare/main/
